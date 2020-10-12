@@ -93,7 +93,7 @@ int main(int argc, char** argv)
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE);
 	glutInitWindowSize(500, 500);
-	glutCreateWindow("HW#2_허다은");
+	glutCreateWindow("2d primitive");
 	glutDisplayFunc(Mydisplay);
 	glutReshapeFunc(Reshape);
 	MyCreateList();
