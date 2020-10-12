@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(500, 500); //윈도우 크기
 	glutInitWindowPosition(0, 0); //윈도우 위치
-	glutCreateWindow("HW#3_허다은"); //윈도우 이름
+	glutCreateWindow("3d gasket"); //윈도우 이름
 	glutDisplayFunc(MyDisplay);
 	MyInit();
 	glutReshapeFunc(MyReshape);
