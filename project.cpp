@@ -585,7 +585,7 @@ int main(int argc, char** argv) {
 	glClearDepth(1.0f);
 	glutInitWindowSize(1000, 800);
 	glutInitWindowPosition(0, 0);
-	glutCreateWindow("openGL");
+	glutCreateWindow("openGL Project");
 	init();
 
 	glutDisplayFunc(draw);
